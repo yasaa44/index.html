@@ -1,0 +1,40 @@
+body {
+    background-color: hsl(219, 97%, 76%);
+    color: rgb(99, 1, 79);
+    font-family: "Pirata One", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #480052;
+    color: rgb(218, 233, 221);
+    font-family: "Rakkas", system-ui;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    border: solid 4px purple;
+    max-width: 90%;
+}
+
+h1{
+    color: bisque;
+    padding: 40px;
+    border-bottom: solid 4px blue;
+}

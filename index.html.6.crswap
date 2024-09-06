@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <title> Cristal</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>O Cristal Desaparecido</h1>
+        </div>
+        <div class="passo ativo" id="passo-0">
+            <img src="cristal.jpeg" alt="">
+            <p> O cristal da vila foi roubado, o que o você fará?</p>
+            <button class="btn-proximo" data-proximo="1">procura ajuda no vilarejo</button>
+            <button class="btn-proximo" data-proximo="2">vai para a floresta sombria procurar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p> Você será o aventureiro nessa jornada, que irá procurar pelo cristal perdido, você precisa de um guia.</p>
+            <button class="btn-proximo" data-proximo="2">velho da floresta </button>
+            <button class="btn-proximo" data-proximo="3">pássaro misterioso </button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>o aventureiro chega`a caverna </p>
+            <button class="btn-proximo" data-proximo="3">entrar direto na caverna</button>
+            <button class="btn-proximo" data-proximo="4">explorar ao redor </button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>o aventureiro encontra o guardião da caverna.</p>
+            <button class="btn-proximo" data-proximo="5">responda o enigma </button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p> Você encontrou escritos antigos na parede da caverna, é a resposta de um enigma. </p>
+            <button class="btn-proximo" data-proximo="3">entrar  na caverna</button>
+            <button class="btn-proximo" data-proximo="6"> ir embora. </button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p> Responder o enigma do guardião e recuperar o Cristal. VOCÊ VENCEU! </p>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p> Você não recuperou o cristal. VOCÊ PERDEU!  </p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+    
+

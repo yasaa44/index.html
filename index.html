@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <title> Cristal</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>O Cristal Desaparecido</h1>
+        </div>
+        <div class="passo ativo" id="passo-0">
+            <img src="cristal.jpeg" alt="">
+            <p> O cristal da vila foi roubado, uma joia de riquezaa imensurável, símbolo da paz para os habitantes, você ajudará o vilarejo a restaurar a glória?</p>
+            <button class="btn-proximo" data-proximo="1">Ir para o vilarejo</button>
+            <button class="btn-proximo" data-proximo="2">ir para a floresta sombria procurar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="aventureiro.jpeg" alt="">
+            <p> Você será o aventureiro nessa jornada, que irá procurar pelo cristal perdido, você precisa de um guia </p>
+            <button class="btn-proximo" data-proximo="2">Velho da Floresta </button>
+            <button class="btn-proximo" data-proximo="3">Pássaro Misterioso </button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="caverna.jpeg" alt="">
+            <p>você chega`a caverna na floresta sombria. Aquela era uma caverna de globins por isso tinha um guardião, eles eram ladrões e mercenários que levavam as riquezas de todo o reino.</p>
+            <button class="btn-proximo" data-proximo="3">entrar direto na caverna</button>
+            <button class="btn-proximo" data-proximo="4">explorar ao redor </button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="guardião.jpeg" alt="">
+            <p> Chegando lá encontra o guardião da Caverna, que lhe concederá o cristal se responder o enigma.</p>
+            <button class="btn-proximo" data-proximo="5">Responda o enigma </button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="escritos_caverna.jpeg" alt="">
+            <p> Você encontrou escritos antigos na parede da caverna, é a resposta de um enigma. Aquela era uma caverna de globins por isso o guardião, eles eram ladrões e mercenários que levavam as riquezas de todo o reino. </p>
+            <button class="btn-proximo" data-proximo="3">entrar  na caverna</button>
+            <button class="btn-proximo" data-proximo="6"> ir embora. </button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="vila_em_festa.jpeg" alt="">
+            <p> Responder o enigma do guardião e recuperar o Cristal. VOCÊ VENCEU! </p>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="voce_perdeu.jpeg" alt="">
+            <p> Você não recuperou o cristal. VOCÊ PERDEU!  </p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+    
+

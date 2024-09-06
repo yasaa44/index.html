@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <title> Cristal</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>O Cristal Desaparecido</h1>
+        </div>
+        <div class="passo ativo" id="passo-0">
+            <img src="c" alt="">
+            <p> o que o aventureiro faz?</p>
+            <button class="btn-proximo" data-proximo="1">vai para a floresta sombria </button>
+            <button class="btn-proximo" data-proximo="2">procura ajuda no vilarejo</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>o aventureiro precisa de um guia .</p>
+            <button class="btn-proximo" data-proximo="3">pássaro misterioso (leva a entrada de uma caverna)</button>
+            <button class="btn-proximo" data-proximo="4">velho da floresta (leva até um atalho perigoso para caverna)</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>o aventureiro chega`A caverna </p>
+            <button class="btn-proximo" data-proximo="5">entrar direto na caverna (encontra o guardião do cristal)</button>
+            <button class="btn-proximo" data-proximo="6">explorar ao redor (descobre uma entrada secreta)</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>o aventureiro encontra o guardião da caverna.</p>
+            <button class="btn-proximo" data-proximo="7">descobre uma entrada secreta </button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="">
+            <p>como lidar com o guardião ?.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p> negociar (recupera o cristal sem lutar).</p>
+            <button class="btn-proximo" data-proximo="7">lutar (vence o guardião e pega o cristal)</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>o aventureiro tem o cristal </p>
+            <button class="btn-proximo" data-proximo="8">guarda em um local seguro </button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+    
+
